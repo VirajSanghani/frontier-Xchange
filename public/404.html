@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontier Xchange - Universal Job Marketplace</title>
+    <meta name="description" content="The premier Tower member job marketplace platform for collaboration, skill-sharing, and community commerce." />
+    <script>
+      // This script handles client-side routing for GitHub Pages
+      // It redirects 404s to the index page with the path as a query parameter
+      const path = window.location.pathname;
+      if (path !== '/' && path !== '/Frontier-Xchange/') {
+        window.location.replace('/Frontier-Xchange/?redirect=' + encodeURIComponent(path));
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

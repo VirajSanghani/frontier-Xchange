@@ -3,27 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontier Makerspace Portal - Community Innovation Hub</title>
-    <meta name="description" content="The premier makerspace portal for community innovation, collaboration, and learning. Access tools, events, marketplace, and connect with makers." />
-    <meta name="author" content="Frontier Makerspace" />
-    <link rel="canonical" href="https://portal.frontiermakerspace.com" />
+    <title>Frontier Xchange - Universal Job Marketplace</title>
+    <meta name="description" content="The premier Tower member job marketplace platform for collaboration, skill-sharing, and community commerce with flexible payment options." />
+    <meta name="author" content="Frontier Tower" />
+    <link rel="canonical" href="https://frontiertower.github.io/Frontier-Xchange/" />
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Frontier Makerspace Portal - Community Innovation Hub" />
-    <meta property="og:description" content="The premier makerspace portal for community innovation, collaboration, and learning. Access tools, events, marketplace, and connect with makers." />
+    <meta property="og:title" content="Frontier Xchange - Universal Job Marketplace" />
+    <meta property="og:description" content="The premier Tower member job marketplace platform for collaboration, skill-sharing, and community commerce with flexible payment options." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://portal.frontiermakerspace.com" />
-    <meta property="og:image" content="https://portal.frontiermakerspace.com/og-image.jpg" />
-    <meta property="og:site_name" content="Frontier Makerspace Portal" />
+    <meta property="og:url" content="https://frontiertower.github.io/Frontier-Xchange/" />
+    <meta property="og:image" content="https://frontiertower.github.io/Frontier-Xchange/og-image.jpg" />
+    <meta property="og:site_name" content="Frontier Xchange" />
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Frontier Makerspace Portal - Community Innovation Hub" />
-    <meta name="twitter:description" content="The premier makerspace portal for community innovation, collaboration, and learning. Access tools, events, marketplace, and connect with makers." />
-    <meta name="twitter:image" content="https://portal.frontiermakerspace.com/og-image.jpg" />
+    <meta name="twitter:title" content="Frontier Xchange - Universal Job Marketplace" />
+    <meta name="twitter:description" content="The premier Tower member job marketplace platform for collaboration, skill-sharing, and community commerce with flexible payment options." />
+    <meta name="twitter:image" content="https://frontiertower.github.io/Frontier-Xchange/og-image.jpg" />
 
     <!-- Additional SEO Meta Tags -->
-    <meta name="keywords" content="makerspace, innovation, community, tools, 3D printing, electronics, workshops, collaboration, DIY, makers" />
+    <meta name="keywords" content="job marketplace, Tower members, collaboration, skill-sharing, community commerce, flexible payments, negotiation, real-time updates" />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#3b82f6" />
     
@@ -35,6 +35,15 @@
 
   <body>
     <div id="root"></div>
+    <script>
+      // Handle redirect from 404.html for client-side routing on GitHub Pages
+      (function() {
+        const redirect = new URLSearchParams(window.location.search).get('redirect');
+        if (redirect) {
+          window.history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
