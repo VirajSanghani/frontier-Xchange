@@ -1,5 +1,7 @@
 # 🚀 Frontier Xchange - Universal Job Marketplace
 
+> **📋 For frontiertower Organization Admins**: See [ORGANIZATION_SUBMISSION.md](ORGANIZATION_SUBMISSION.md) for integration instructions to create `https://github.com/frontiertower/frontier-Xchange`
+
 A comprehensive Tower member job marketplace platform that enables all members to create jobs, submit offers, negotiate terms, and complete transactions with multiple payment options.
 
 ## 📋 Table of Contents
